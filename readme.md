@@ -1,18 +1,18 @@
-#PhpUi - Php Masaüstü Program Arayüzü / Php Desktop Applications
+#PhpUi - Php MasaÃ¼stÃ¼ Program ArayÃ¼zÃ¼ / Php Desktop Applications
 
-Node webkit + php + mysql kullanarak masaüstü programlar yazabilirsiniz.
+Node webkit + php + mysql kullanarak masaÃ¼stÃ¼ programlar yazabilirsiniz.
 
-config.json dosyasındaki ip ve port değerleri ile php yerleşik web sunucu ve mysql başlatılıyor.  
+config.json dosyasÄ±ndaki ip ve port deÄŸerleri ile php yerleÅŸik web sunucu ve mysql baÅŸlatÄ±lÄ±yor.  
 
-#####PhpUi.exe'yi çalışıtırın, php dosyalarınızı src dizinine kopyalayın ve istediğiniz yerde çalıştırın..
+#####PhpUi.exe'yi Ã§alÄ±ÅŸÄ±tÄ±rÄ±n, php dosyalarÄ±nÄ±zÄ± src dizinine kopyalayÄ±n ve istediÄŸiniz yerde Ã§alÄ±ÅŸtÄ±rÄ±n..
 
-Mysql kullanıcı adı : root
+Mysql kullanÄ±cÄ± adÄ± : root
 
 Mysql parola : root
 
 
-Php yerleşik sunucu bu tür masaüstü uygulamalar için yeterli. En azından denedğim kadarıyla herhangi bir sorun yaşamadım. 
-Apache Url rewrite işlemlerini yapmak içinse sadece index.php dosyanızın başına şunları ekleyin.
+Php yerleÅŸik sunucu bu tÃ¼r masaÃ¼stÃ¼ uygulamalar iÃ§in yeterli. En azÄ±ndan denedÄŸim kadarÄ±yla herhangi bir sorun yaÅŸamadÄ±m. 
+Apache Url rewrite iÅŸlemlerini yapmak iÃ§inse sadece index.php dosyanÄ±zÄ±n baÅŸÄ±na ÅŸunlarÄ± ekleyin.
 
 ```php
 <?php
@@ -21,7 +21,7 @@ if (php_sapi_name() === 'cli-server' && is_file($filename)) {
     return false;
 }
 ```
-
+![alt tag](http://www.wmatik.com/phpui.jpg)
 
 
 
