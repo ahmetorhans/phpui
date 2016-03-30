@@ -1,0 +1,52 @@
+160210 15:01:12 [Note] Plugin 'FEDERATED' is disabled.
+D:\nwjs-v0.12.3-win-ia32\bin\mysql\bin\mysqld.exe: Table 'mysql.plugin' doesn't exist
+160210 15:01:12 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+160210 15:01:12 InnoDB: The InnoDB memory heap is disabled
+160210 15:01:12 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+160210 15:01:12 InnoDB: Compressed tables use zlib 1.2.3
+160210 15:01:12 InnoDB: Initializing buffer pool, size = 16.0M
+160210 15:01:12 InnoDB: Completed initialization of buffer pool
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+160210 15:01:12  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+160210 15:01:12  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+160210 15:01:12  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 5 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: 127 rollback segment(s) active.
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+160210 15:01:13  InnoDB: Waiting for the background threads to start
+160210 15:01:14 InnoDB: 1.1.8 started; log sequence number 0
+D:\nwjs-v0.12.3-win-ia32\bin\mysql\bin\mysqld.exe: Too many arguments (first extra is 'D:/nwjs-v0.12.3-win-ia32/bin/mysql/data/').
+Use --verbose --help to get a list of available options
+160210 15:01:14 [ERROR] Aborting
+
+160210 15:01:14  InnoDB: Starting shutdown...
+160210 15:01:15  InnoDB: Shutdown completed; log sequence number 1595675
+160210 15:01:15 [Note] D:\nwjs-v0.12.3-win-ia32\bin\mysql\bin\mysqld.exe: Shutdown complete
+
+160210 15:01:20 [Note] Plugin 'FEDERATED' is disabled.
+D:\nwjs-v0.12.3-win-ia32\bin\mysql\bin\mysqld.exe: Table 'mysql.plugin' doesn't exist
+160210 15:01:20 [ERROR] Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
+160210 15:01:20 InnoDB: The InnoDB memory heap is disabled
+160210 15:01:20 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+160210 15:01:20 InnoDB: Compressed tables use zlib 1.2.3
+160210 15:01:20 InnoDB: Initializing buffer pool, size = 16.0M
+160210 15:01:20 InnoDB: Completed initialization of buffer pool
+160210 15:01:20 InnoDB: highest supported file format is Barracuda.
+160210 15:01:20  InnoDB: Waiting for the background threads to start
+160210 15:01:21 InnoDB: 1.1.8 started; log sequence number 1595675
+D:\nwjs-v0.12.3-win-ia32\bin\mysql\bin\mysqld.exe: Too many arguments (first extra is 'D:/nwjs-v0.12.3-win-ia32/bin/mysql/data/').
+Use --verbose --help to get a list of available options
+160210 15:01:21 [ERROR] Aborting
+
+160210 15:01:21  InnoDB: Starting shutdown...
+160210 15:01:22  InnoDB: Shutdown completed; log sequence number 1595675
+160210 15:01:22 [Note] D:\nwjs-v0.12.3-win-ia32\bin\mysql\bin\mysqld.exe: Shutdown complete
+

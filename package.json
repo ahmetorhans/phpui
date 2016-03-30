@@ -1,0 +1,17 @@
+{
+  "name": "Php ui",
+  "main": "iframe.html",
+  "single-instance": false,
+  "window": {
+   "title": "Php Ui",
+    "toolbar": false,
+	"frame": false,
+    "width": 800,
+    "height": 600
+   
+  },
+  "webkit": {
+    "plugin": true
+  }
+}
+
