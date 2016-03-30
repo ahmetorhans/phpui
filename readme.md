@@ -32,6 +32,6 @@ app.zip dosyasının adını app.nw  olarak değiştirin
 Komut sisteminden  copy /b nw.exe+app.nw app.exe yaparak dosyanızı dağıtıma hazır hale getirebilirsiniz. 
 
 
-![alt tag](http://www.wmatik.com/phpui.jpg)
+![alt tag](http://www.wmatik.com/nw.jpg)
 
 
