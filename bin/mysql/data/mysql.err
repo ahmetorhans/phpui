@@ -5354,3 +5354,51 @@ InnoDB: than specified in the .cnf file 0 5242880 bytes!
 160330 11:05:36 [Note] Event Scheduler: Loaded 0 events
 160330 11:05:36 [Note] D:\projects\phpui\bin\mysql\bin\mysqld.exe: ready for connections.
 Version: '5.5.24'  socket: ''  port: 3308  MySQL Community Server (GPL)
+160330 11:11:32 [Note] Plugin 'FEDERATED' is disabled.
+160330 11:11:32 InnoDB: The InnoDB memory heap is disabled
+160330 11:11:32 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+160330 11:11:32 InnoDB: Compressed tables use zlib 1.2.3
+160330 11:11:32 InnoDB: Initializing buffer pool, size = 16.0M
+160330 11:11:32 InnoDB: Completed initialization of buffer pool
+InnoDB: Error: log file .\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+160330 11:11:32 [ERROR] Plugin 'InnoDB' init function returned error.
+160330 11:11:32 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+160330 11:11:32 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+160330 11:11:32 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+160330 11:11:32 [Note] Server socket created on IP: '127.0.0.1'.
+160330 11:11:32 [Note] Event Scheduler: Loaded 0 events
+160330 11:11:32 [Note] D:\projects\phpui\bin\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.24'  socket: ''  port: 3308  MySQL Community Server (GPL)
+160330 11:11:44 [Note] Plugin 'FEDERATED' is disabled.
+160330 11:11:44 InnoDB: The InnoDB memory heap is disabled
+160330 11:11:44 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+160330 11:11:44 InnoDB: Compressed tables use zlib 1.2.3
+160330 11:11:44 InnoDB: Initializing buffer pool, size = 16.0M
+160330 11:11:44 InnoDB: Completed initialization of buffer pool
+InnoDB: Error: log file .\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+160330 11:11:45 [ERROR] Plugin 'InnoDB' init function returned error.
+160330 11:11:45 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+160330 11:11:45 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+160330 11:11:45 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+160330 11:11:45 [Note] Server socket created on IP: '127.0.0.1'.
+160330 11:11:45 [Note] Event Scheduler: Loaded 0 events
+160330 11:11:45 [Note] D:\projects\phpui\bin\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.24'  socket: ''  port: 3308  MySQL Community Server (GPL)
+160330 11:17:51 [Note] Plugin 'FEDERATED' is disabled.
+160330 11:17:51 InnoDB: The InnoDB memory heap is disabled
+160330 11:17:51 InnoDB: Mutexes and rw_locks use Windows interlocked functions
+160330 11:17:51 InnoDB: Compressed tables use zlib 1.2.3
+160330 11:17:51 InnoDB: Initializing buffer pool, size = 16.0M
+160330 11:17:51 InnoDB: Completed initialization of buffer pool
+InnoDB: Error: log file .\ib_logfile1 is of different size 0 0 bytes
+InnoDB: than specified in the .cnf file 0 5242880 bytes!
+160330 11:17:52 [ERROR] Plugin 'InnoDB' init function returned error.
+160330 11:17:52 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+160330 11:17:52 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3308
+160330 11:17:52 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+160330 11:17:52 [Note] Server socket created on IP: '127.0.0.1'.
+160330 11:17:52 [Note] Event Scheduler: Loaded 0 events
+160330 11:17:52 [Note] D:\projects\phpui\bin\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.5.24'  socket: ''  port: 3308  MySQL Community Server (GPL)
