@@ -29,7 +29,7 @@ Dizinde bulunan tüm dosyalarınızı (.html .js .node_modules .json .png) app.z
 
 app.zip dosyasının adını app.nw  olarak değiştirin
 
-Komut sisteminden  copy /b nw.exe+app.nw app.exe yaparak dosyanızı dağıtıma hazır hale getirebilirsiniz. 
+Komut sisteminden  copy /b nw.exe+app.nw app.exe yaparak dosyanızı dağıtıma hazır hale getirebilirsiniz. (Ya da app.nw dosyasını nw.exe nin üzerine sürükleyip bırakın)
 
 
 ![alt tag](http://www.wmatik.com/nw.jpg)
