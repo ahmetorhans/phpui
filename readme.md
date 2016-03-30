@@ -22,7 +22,7 @@ if (php_sapi_name() === 'cli-server' && is_file($filename)) {
 }
 ```
 
-Projenizi paket haline getirmek için : 
+#####Projenizi paket haline getirmek için : 
 
 Dizinde bulunan tüm dosyalarınızı (.html .js .node_modules .json .png) app.zip olarak sıkıştırın ve tek dosya haline getirin.
 (/bin, /src, nw.pak, icudtl.dat ve dll hariç)
