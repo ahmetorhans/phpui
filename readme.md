@@ -2,7 +2,7 @@
 
 Node webkit + php + mysql kullanarak masaüstü programlar yazabilirsiniz.
 
-config.json dosyasındaki ip ve port değerleri ile php yerleşik web sunucu ve mysql başlatılıyor.  
+config.json dosyasındaki port değerleri ile php yerleşik web sunucu ve mysql başlatılıyor.  
 
 #####PhpUi.exe'yi çalışıtırın, php dosyalarınızı src dizinine kopyalayın ve istediğiniz yerde çalıştırın..
 
@@ -21,7 +21,17 @@ if (php_sapi_name() === 'cli-server' && is_file($filename)) {
     return false;
 }
 ```
-![alt tag](http://www.wmatik.com/phpui.jpg)
 
+Projenizi paket haline getirmek için : 
+
+Dizinde bulunan tüm dosyalarınızı (.html .js .node_modules .json .png) app.zip olarak sıkıştırın ve tek dosya haline getirin.
+(/bin, /src, nw.pak, icudtl.dat ve dll hariç)
+
+app.zip dosyasının adını app.nw  olarak değiştirin
+
+Komut sisteminden  copy /b nw.exe+app.nw app.exe yaparak dosyanızı dağıtıma hazır hale getirebilirsiniz. 
+
+
+![alt tag](http://www.wmatik.com/phpui.jpg)
 
 
