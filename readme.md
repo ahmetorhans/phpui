@@ -1,18 +1,18 @@
-#PhpUi - Php Masaüstü Program Arayüzü / Php Desktop Applications
+#PhpUi - Php MasaÃ¼stÃ¼ Program ArayÃ¼zÃ¼ / Php Desktop Applications
 
-Node webkit + php + mysql kullanarak masaüstü programlar yazabilirsiniz.
+Node webkit + php + mysql kullanarak masaÃ¼stÃ¼ programlar yazabilirsiniz.
 
-config.json dosyasındaki ip ve port değerleri ile php yerleşik web sunucu ve mysql başlatılıyor.  
+config.json dosyasÄ±ndaki port deÄŸerleri ile php yerleÅŸik web sunucu ve mysql baÅŸlatÄ±lÄ±yor.  
 
-#####PhpUi.exe'yi çalışıtırın, php dosyalarınızı src dizinine kopyalayın ve istediğiniz yerde çalıştırın..
+#####PhpUi.exe'yi Ã§alÄ±ÅŸÄ±tÄ±rÄ±n, php dosyalarÄ±nÄ±zÄ± src dizinine kopyalayÄ±n ve istediÄŸiniz yerde Ã§alÄ±ÅŸtÄ±rÄ±n..
 
-Mysql kullanıcı adı : root
+Mysql kullanÄ±cÄ± adÄ± : root
 
 Mysql parola : root
 
 
-Php yerleşik sunucu bu tür masaüstü uygulamalar için yeterli. En azından denedğim kadarıyla herhangi bir sorun yaşamadım. 
-Apache Url rewrite işlemlerini yapmak içinse sadece index.php dosyanızın başına şunları ekleyin.
+Php yerleÅŸik sunucu bu tÃ¼r masaÃ¼stÃ¼ uygulamalar iÃ§in yeterli. En azÄ±ndan denedÄŸim kadarÄ±yla herhangi bir sorun yaÅŸamadÄ±m. 
+Apache Url rewrite iÅŸlemlerini yapmak iÃ§inse sadece index.php dosyanÄ±zÄ±n baÅŸÄ±na ÅŸunlarÄ± ekleyin.
 
 ```php
 <?php
@@ -22,6 +22,16 @@ if (php_sapi_name() === 'cli-server' && is_file($filename)) {
 }
 ```
 
+Projenizi paket haline getirmek iÃ§in : 
 
+Dizinde bulunan tÃ¼m dosyalarÄ±nÄ±zÄ± (.html .js .node_modules .json .png) app.zip olarak sÄ±kÄ±ÅŸtÄ±rÄ±n ve tek dosya haline getirin.
+(/bin, /src, nw.pak, icudtl.dat ve dll hariÃ§)
+
+app.zip dosyasÄ±nÄ±n adÄ±nÄ± app.nw  olarak deÄŸiÅŸtirin
+
+Komut sisteminden  copy /b nw.exe+app.nw app.exe yaparak dosyanÄ±zÄ± daÄŸÄ±tÄ±ma hazÄ±r hale getirebilirsiniz. 
+
+
+![alt tag](http://www.wmatik.com/phpui.jpg)
 
 
